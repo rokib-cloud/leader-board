@@ -84,6 +84,12 @@ top blogs style
      grid-template-columns: repeat(3, 1fr);
      grid-column-gap: 24px;
  }
+ .course{
+     width: 252px;
+     border: 1px #F3F1FF;
+     border-radius: 10px;
+     margin-left: 25px;
+ }
  .course .course-banner img{
      width:224px;
      height: 104px;
@@ -125,12 +131,12 @@ top blogs style
     .container{
         width: 100%;
     }
-    .players, .blog, .courses{
-grid-template-columns: repeat(1,fr);
+    .players, .blogs, .courses{
+grid-template-columns: repeat(1, 1fr);
     }
-    .player, .blog{
+    .player, .blogs{
         flex-direction: column;
-    }
+    }  
 }
 /* tablet diveces */
 @media only screen and(min-width:688) and
@@ -139,10 +145,10 @@ grid-template-columns: repeat(1,fr);
         width:100%;
     }
     .player, .courses{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 2fr);
     }
     .blogs{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 2fr);
     }
 }
     
