@@ -4,7 +4,9 @@
 /* common style */
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #F3F1FF;;
+    background-color: #F3F1FF;
+    overflow-x: hidden;
+    width: 100vw;
 
 }
 main{
